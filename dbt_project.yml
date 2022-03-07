@@ -29,7 +29,7 @@ vars:
   snowplow__yauaa_context: "{{ source('atomic','nl_basjes_yauaa_context_1') }}"
   snowplow__sessions_table: "{{ ref('snowplow_web_sessions') }}" # Change to your custom sessions table if you have disabled the standard sessions table in favour of a custom version. Advanced config.
   # Variables - Standard Config
-  snowplow__start_date: '2020-01-01'
+  snowplow__start_date: '2022-01-20'
   snowplow__min_visit_length: 5
   snowplow__heartbeat: 10
   snowplow__backfill_limit_days: 30
