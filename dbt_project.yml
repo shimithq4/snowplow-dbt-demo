@@ -4,7 +4,7 @@ config-version: 2
 
 require-dbt-version: [">=0.20.0", "<1.1.0"]
 
-profile: 'default'
+profile: 'snowplow_dbt'
 
 source-paths: ["models"]
 test-paths: ["tests"]
